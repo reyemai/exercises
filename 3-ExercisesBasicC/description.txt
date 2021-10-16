@@ -1,0 +1,53 @@
+C programming questions:
+
+------------------------------------
+- 1) Matrix Transpose              -
+------------------------------------
+Write a function to return the transponse of a matrix.
+
+
+------------------------------------
+- 2) Even/Odd Sort                 -
+------------------------------------
+Given an array of integers (both odd and even), sort them in such a way that the first  part of the array contains odd numbers sorted in descending order, rest portion contains even numbers sorted in ascending order.
+
+Examples:
+
+Input  : arr[] = {1, 2, 3, 5, 4, 7, 10}
+Output : arr[] = {7, 5, 3, 1, 2, 4, 10}
+
+Input  : arr[] = {0, 4, 5, 3, 7, 2, 1}
+Output : arr[] = {7, 5, 3, 1, 0, 2, 4}
+
+
+------------------------------------
+- 3) Print Pattern                 -
+------------------------------------
+Given a number n, print following pattern without using any loop.
+
+Input: n = 16
+Output: 16, 11, 6, 1, -4, 1, 6, 11, 16
+
+Input: n = 10
+Output: 10, 5, 0, 5, 10
+
+We basically first reduce 5 one by one until we reach a negative or 0. After we reach 0 or negative, we one one add 5 until we reach n.
+
+
+------------------------------------
+- 4) Palindrome                    -
+------------------------------------
+Write a function to determine whether a string is palindrome or not.
+
+Note: A palindrome is a word, number, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
+
+Example:
+
+Input: I am :IronnorI Ma, i
+Output: YES
+
+Input: AbeBa
+Output: YES
+
+Input: eebURY
+Output: NO
