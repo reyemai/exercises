@@ -1,0 +1,27 @@
+Python programming question
+
+-------------------------------------------
+- Testing an interactive console program  -
+-------------------------------------------
+
+Assume that you have a program to be tested. This program is a command line tool, which accepts input via stdin (one line at a time) and returns output via stdout or stderr (zero or more lines at a time, either on stdout or stderr).
+
+The goal is to be able to define and run test cases for this program. Each test case contains the line to be sent to program's stdin, the expected output from the program, plus an indicator whether the output should be returned on stdout or stderr.
+
+You need to write a tool which will read test cases from a text file, run the test cases against the program, and print the result (number of tests passed/failed). You can define the format of input file with test cases, but please keep it human readable and writeable.
+
+You may write the program in Python (preferable), C, or C++, and use the standard libraries.
+As an example, assume that the program being tested is GNU dc (arbitrary precision reverse polish
+notation calculator). Then the file with test cases might look as follows:
+    stdin: 2 2 * p
+    stout: 4
+    stdin: 4 - p
+    stdout: 0
+    stdin: f
+    stdout: 0
+    stdin: P
+    stdin: P
+    stderr: dc: stack empty
+
+Executing test cases against 'dc' with your tool may look like:
+    test_interactive.py dc test_cases.txt
