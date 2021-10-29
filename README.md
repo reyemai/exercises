@@ -1,16 +1,17 @@
 # Exercises repository
 
-Collection of assignements, interviews test, and personal indipendent projects.
+Collection of assignments, interviews test, and personal independent projects.
 
 ## Content
 1. Message Queue [C++]
-1. Test an Interactive Console Program [Python]
-1. Basic C Exercises [C]
+2. Test an Interactive Console Program [Python]
+3. Basic C Exercises [C]
+4. Django DB Access API [Python]
 
 ## General Structure
-In each folder there is a `readme.txt` that explains the content of the folder.
+In each folder there is a `readme.txt`|`.md` that explains the content of the folder.
 
-A `description.txt` will instead contain the plain version of the original instructions I was given.
+A `description.txt`|`.md` will instead contain the original instructions I was given.
 
 ### Message Queue
 Exercise to test C++ skills. It contains:
@@ -36,6 +37,13 @@ Four exercise written in basic C, more to demonstrate logical approach:
 1. Even/Odd sort
 1. Patter print
 1. Palindrome check
+
+### Django DB Access API
+Server and client demonstration of a DB access through Endpoint API:
+It shows the following experience in:
+- Django Framework
+- DB, Models usage
+- Json formatted API on GET request
 
 
 #### Author

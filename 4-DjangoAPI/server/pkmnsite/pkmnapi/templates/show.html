@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Database</title>
+</head>
+
+<body>
+    <h2>Loaded Pokemons:</h2>
+    <ol>
+    {% for pkmn in pokemons %}
+        <li> {{ pkmn }} </li>
+    {% endfor %}
+    </ol>
+</body>
+</html>
