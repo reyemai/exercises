@@ -7,6 +7,7 @@ Collection of assignments, interviews test, and personal independent projects.
 2. Test an Interactive Console Program [Python]
 3. Basic C Exercises [C]
 4. Django DB Access API [Python]
+5. C Biding [Python]
 
 ## General Structure
 In each folder there is a `readme.txt`|`.md` that explains the content of the folder.
