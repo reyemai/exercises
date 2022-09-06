@@ -45,6 +45,9 @@ It shows the following experience in:
 - DB, Models usage
 - Json formatted API on GET request
 
+### Python Trading FW with C layer
+Demonstration of C++ binding in python.
+
 
 #### Author
 Marco Bettoni
